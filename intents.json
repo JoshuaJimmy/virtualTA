@@ -3,18 +3,32 @@
     {
       "tag": "greeting",
       "patterns": [
+        "What's up?",
         "Hi",
         "Hey",
-        "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Yo",
+        "Wassup"
       ],
       "responses": [
         "Hey :-)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "What's up? Hope you're doing well.",
+        "Hello! How's it going?"
+      ]
+    },
+    {
+      "tag": "special-greeting",
+      "patterns": [
+        "How are you?",
+        "How's it going?"
+      ],
+      "responses": [
+        "I'm doing great. Hope you are well. How can I help?"
       ]
     },
     {
@@ -23,49 +37,175 @@
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come again.",
+        "Happy learning! Come again if you have more questions."
       ]
     },
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": ["Happy to help!", "Any time!", "My pleasure."]
     },
     {
-      "tag": "items",
+      "tag": "course",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Which course do you assist in?",
+        "What courses are available?",
+        "What do you teach?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "I assist in Software Project Planning and Management",
+        "I help teach concepts in Software Project Planning and Management"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "course-help",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Can you help me?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Of course! Go ahead and type in your questions and I'll be happy to assist you."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "course-content",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Do you know where I can find the syllabus?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "You can find the syllabus on eLearning or Coursebook."
+      ]
+    },
+    {
+      "tag": "course-content-2",
+      "patterns": [
+        "Do you know the deadline for assignment one?"
+        
+      ],
+      "responses": [
+        "The deadline for asssignment one is next Monday."
+      ]
+    },
+    {
+      "tag": "course-content-3",
+      "patterns": [
+        "Can you help me with the homeworks?"
+        
+      ],
+      "responses": [
+        "I cannot assist in homeworks, but I can answer certain questions for you."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "How's the weather?"
+      ],
+      "responses": [
+        "Sunny."
+      ]
+    },
+    {
+      "tag": "actual-content",
+      "patterns": [
+          "Teach me some concepts",
+          "What else do you know?",
+          "Some key definitions in this course"
+      ],
+      "responses": [
+        "PMBOK - Project Management Body of Knowledge. It is a comprehensive guide published by the Project Management Institute (PMI) that outlines best practices, processes, and knowledge areas in project management.",
+        "Project goals are the desired outcomes or objectives that the project aims to achieve. They should be specific, measurable, achievable, relevant, and time-bound (SMART)",
+        "Project Resources: The people, equipment, materials, and budget allocated to execute the project tasks."
+      ]
+    },
+    {
+      "tag": "actual-content-1",
+      "patterns": [
+          "What is software project planning?"
+      ],
+      "responses": [
+        "Software project planning is the process of defining project goals, scope, timelines, resources, and risks to ensure successful project execution."
+      ]
+    },
+    {
+      "tag": "actual-content-2",
+      "patterns": [
+          "What is project scope?"
+      ],
+      "responses": [
+        "Project scope defines the boundaries of the project, including what features and functionalities will be included and what will be excluded."
+      ]
+    },
+    {
+      "tag": "actual-content-3",
+      "patterns": [
+          "What are project goals?"
+      ],
+      "responses": [
+        "Project goals are the desired outcomes or objectives that the project aims to achieve. They should be specific, measurable, achievable, relevant, and time-bound (SMART)."
+      ]
+    },
+    {
+      "tag": "actual-content-4",
+      "patterns": [
+          "What is a project timeline?"
+      ],
+      "responses": [
+        "A project timeline, also known as a project schedule, outlines the sequence of tasks, milestones, and deadlines for completing the project within the allocated time frame."
+      ]
+    },
+    {
+      "tag": "actual-content-5",
+      "patterns": [
+          "What are project resources?"
+      ],
+      "responses": [
+        "Project resources include human resources (team members), financial resources, equipment, tools, and technologies required to execute the project."
+      ]
+    },
+    {
+      "tag": "actual-content-6",
+      "patterns": [
+          "What is risk management in software projects?"
+      ],
+      "responses": [
+        "Risk management involves identifying, assessing, prioritizing, and mitigating potential risks that could affect the project's success, such as technical challenges, resource constraints, or changes in requirements."
+      ]
+    },
+    {
+      "tag": "actual-content-7",
+      "patterns": [
+          "What is Agile project management?"
+      ],
+      "responses": [
+        "Agile project management is an iterative and incremental approach to software development, emphasizing flexibility, collaboration, and customer feedback to deliver value quickly and adapt to changing requirements."
+      ]
+    },
+    {
+      "tag": "actual-content-8",
+      "patterns": [
+          "What is Scrum?"
+      ],
+      "responses": [
+        "Scrum is a specific Agile framework for managing software development projects, featuring roles (e.g., Product Owner, Scrum Master, Development Team), events (e.g., Sprint, Daily Standup), and artifacts (e.g., Product Backlog, Sprint Backlog) to organize work and promote transparency and inspection."
+      ]
+    },
+    {
+      "tag": "actual-content-9",
+      "patterns": [
+          "What is Kanban?"
+      ],
+      "responses": [
+        "Kanban is a visual management method used to track and optimize the flow of work in software development projects, typically represented as a board with columns representing different stages of work (e.g., To Do, In Progress, Done) and cards representing tasks."
+      ]
+    },
+    {
+      "tag": "faqs",
+      "patterns": [
+        "What do you do?"
+      ],
+      "responses": [
+        "I assist in helping students with their questions in Software Project Planning and Management?."
       ]
     },
     {
@@ -76,7 +216,7 @@
         "Do you know a joke?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did one nail said to the other? Hang in there!.",
         "What did the buffalo say when his son left for college? Bison."
       ]
     }
